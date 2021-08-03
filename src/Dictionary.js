@@ -7,7 +7,6 @@ export default function Dictionary(){
         alert(`searching for ${keyword}`)
     }
     function handleKeyboard(event){
-        console.log(event.target.value);
         setKeyword(event.target.value);
     }
     return(
