@@ -7,8 +7,8 @@ export default function Dictionary(){
     const [definition, setDefinition ]= useState({});
 
     function handleResponse(response){
-    setDefinition(response.data[0])
-    console.log(response.data[0]);
+    setDefinition(response.data)
+    console.log(response.data);
     }
     function search(event){
         event.preventDefault();
